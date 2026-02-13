@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Christopher Mutombo Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="bg3d 1 "></div>
+<div class="bg3d 2 ">
+
+</div> <div class="bg3d 3 "></div>
+
+<img src="images/profile.jpg" class="profile">
+<h1>Christopher Mutombo</h1>
+<h2 class="typing"></h2>
+
+<button id="darkBtn">Dark Mode</button>
+<a href="cv.pdf" download class="btn">Download CV</a>
+</header>
+
+<section class="card reveal">
+<h2>About</h2>
+<p id="aboutText">
+I’m Christopher Mutombo — a fun, enthusiastic, and creative person who loves bringing ideas to life through design, music, and photography. I spent three years at Kaya Image as a graphic designer, where 
+I enjoyed the creative atmosphere and grew my skills. I also worked three years in sales at Blades and Triggers, which opened my mind to new ways of connecting with people and understanding how to approach sales.
+I’m passionate about creating, learning, and turning ideas into something real.
+</p>
+</section>
+
+<section class="card reveal">
+<h2>Skills</h2>
+
+<div class="skill">
+<span>Photoshop</span>
+<div class="bar"><div style="width: 85%"></div></div>
+</div>
+
+<div class="skill">
+<span>CorelDraw</span>
+<div class="bar"><div style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<span>FL Studio</span>
+<div class="bar"><div style="width:88%"></div></div>
+</div>
+
+<div class="skill">
+<span>Sales</span>
+<div class="bar"><div style="width:95%"></div></div>
+</div>
+
+</section>
+
+<section class="card reveal">
+<h2>Portfolio</h2>
+<div class="gallery">
+<img src="images/work1.jpg">
+<img src="images/work2.jpg">
+<img src="images/work3.jpg">
+<img src="images/work4.jpg">
+<img src="images/work5.jpg">
+<img src="images/work6.jpg">
+
+</div>  
+</section>
+
+<section class="card reveal">
+<h2>Music Production</h2>
+<audio controls>
+<source src="music/demo.mp3">
+</audio>
+<audio controls>
+<source src="music/demo2.mp3">
+</audio>
+<audio controls>
+<source src="music/demo3.mp3">
+</audio>
+</section>
+
+<section class="card reveal">
+<h2>Testimonials</h2>
+<div class="testimonials">
+<p> - "Amazing designer and producer!" — Chloe (c.e.o)</p>
+<p>- "An amazing producer, designer and photographer, you need anyting created
+    from skretch and looks good. he is your guy " — Jason Jordan (content creator)</p>
+<p>- "Professional and creative mind." — Dotty (artist)</p>
+</div>
+</section>
+
+<section class="card reveal">
+<h2>Contact</h2>
+
+<form action="https://formspree.io/f/yourID" method="POST">
+<input type="text" name="name" placeholder="Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="message" placeholder="Message"></textarea>
+<button type="submit">Send</button>
+</form>
+
+<div class="social">
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">WhatsApp</a>
+<a href="#">LinkedIn</a>
+</div>
+
+</section>
+
+<section class="card reveal admin">
+<h2>Admin Panel</h2>
+<textarea id="editor"></textarea>
+<button onclick="updateText()">Update About Section</button>
+</section>
+
+<footer>© 2026 Christopher Mutombo</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
